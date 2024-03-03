@@ -3,7 +3,7 @@ Target framework is .Net 8. The project is code first approach.
 Entity Framework Core has used as ORM tool. You need to Migrate your entities with Add-Migration and Update-Database commands.
 FluentValidation has used for Error-Proof System.
 Result class has created as Response Modeling.
-Basic Authentication has added for Authentication.
+Basic Authentication has added for Authentication.You can see basic authentication username and password in appsettings.json which is in Gringotts.Banking.HttpApi project.
 Logging has used for logs.
 Sql Database has used as storage and run on Docker.
 Swagger has added for API Documentation.
