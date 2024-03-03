@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Banking.HttpApi", "Gringotts.Banking.HttpApi\Gringotts.Banking.HttpApi.csproj", "{8C06D535-80B6-49E0-A771-AA589E3C610A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Banking.Application", "Gringotts.Banking.Application\Gringotts.Banking.Application.csproj", "{A526D06C-E9D2-4872-8FCE-E561EEAB1A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Banking.Application.Contracts", "Gringotts.Banking.Application.Contracts\Gringotts.Banking.Application.Contracts.csproj", "{E831FD0C-5AF2-498C-99E2-D52B104B4AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Banking.Domain", "Gringotts.Banking.Domain\Gringotts.Banking.Domain.csproj", "{4CB079CD-FC8C-414C-8537-7AFB1A3AD659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Banking.Shared", "Gringotts.Banking.Shared\Gringotts.Banking.Shared.csproj", "{2DC4F72E-37FD-46A3-B499-066B60EFE748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C06D535-80B6-49E0-A771-AA589E3C610A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C06D535-80B6-49E0-A771-AA589E3C610A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C06D535-80B6-49E0-A771-AA589E3C610A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C06D535-80B6-49E0-A771-AA589E3C610A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A526D06C-E9D2-4872-8FCE-E561EEAB1A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A526D06C-E9D2-4872-8FCE-E561EEAB1A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A526D06C-E9D2-4872-8FCE-E561EEAB1A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A526D06C-E9D2-4872-8FCE-E561EEAB1A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E831FD0C-5AF2-498C-99E2-D52B104B4AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E831FD0C-5AF2-498C-99E2-D52B104B4AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E831FD0C-5AF2-498C-99E2-D52B104B4AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E831FD0C-5AF2-498C-99E2-D52B104B4AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB079CD-FC8C-414C-8537-7AFB1A3AD659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB079CD-FC8C-414C-8537-7AFB1A3AD659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB079CD-FC8C-414C-8537-7AFB1A3AD659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB079CD-FC8C-414C-8537-7AFB1A3AD659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC4F72E-37FD-46A3-B499-066B60EFE748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC4F72E-37FD-46A3-B499-066B60EFE748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC4F72E-37FD-46A3-B499-066B60EFE748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC4F72E-37FD-46A3-B499-066B60EFE748}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B740D25-0290-4CBD-88FF-5B4A83C97428}
+	EndGlobalSection
+EndGlobal
